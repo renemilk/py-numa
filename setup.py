@@ -42,6 +42,7 @@ setup(
         ''',
     license = 'MIT',
     platforms = ['any'],
+    install_requires=['cython'], setup_requires=['cython'],
     classifiers = [
         'Development Status :: 3 - Alpha',
         'License :: OSI Approved :: MIT License',
