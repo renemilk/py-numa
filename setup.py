@@ -27,7 +27,7 @@ else:
         options['cmdclass'] = {"build_ext": build_ext}
 
 setup(
-    name = "numa",
+    name = "py-numa",
     version = '1.4.3',
     description = "Interface to numa(3) Linux API for Python",
     author = 'Andrey Smirnov',
